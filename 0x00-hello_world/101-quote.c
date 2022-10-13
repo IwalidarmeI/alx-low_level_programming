@@ -9,6 +9,6 @@ int main(void)
 {
 	char My[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	fprintf(stderr, "%s", My);
+	fprintf(stderr, "%s\n", My);
 	return (1);
 }
