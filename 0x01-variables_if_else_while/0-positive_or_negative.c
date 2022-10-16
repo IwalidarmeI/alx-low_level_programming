@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/*
+/**
  * main - using the function main to begin program
  * description - this program use to generate a random a n number
  * Return: returns value 0
