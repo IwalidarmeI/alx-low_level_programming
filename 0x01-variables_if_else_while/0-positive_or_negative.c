@@ -3,9 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 /*
- * main - using the funcyion main to begin program
+ * main - using the function main to begin program
+ * description - this program use to generate a random a n number
+ * Return: returns value 0
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
