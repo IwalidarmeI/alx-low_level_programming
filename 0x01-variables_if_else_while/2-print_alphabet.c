@@ -5,7 +5,7 @@
  * description - this program display alphabet in a lowercase
  * Return: returns value 0
  */
-int main (void) 
+int main(void)
 {
 	char ch;
 
@@ -13,6 +13,8 @@ int main (void)
 	{
 		putchar(ch);
 	}
+	
+	putchar('\n');
 
 	return (0);
 }
