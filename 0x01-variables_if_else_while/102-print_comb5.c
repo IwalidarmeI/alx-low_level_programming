@@ -29,8 +29,8 @@ int main(void)
 					putchar(n);
 					putchar(ch);
 
-					//if (c == '7' && n == '8' && ch == '9')
-					//	continue;
+					if (b == '8' && c == '8' && n == '9' && ch == '9')
+						continue;
 					putchar(44);
 					putchar(32);
 				}
