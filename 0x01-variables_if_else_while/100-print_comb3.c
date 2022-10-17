@@ -22,7 +22,7 @@ int main(void)
 
 			if (n == '8' && ch == '9')
 				continue;
-			
+
 			putchar(44);
 			putchar(32);
 		}
