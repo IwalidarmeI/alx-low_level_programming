@@ -20,7 +20,7 @@ int main(void)
 			{
 				for (ch = '0' ; ch <= '9' ; ch++)
 				{
-					if (ch <= c || n < b)
+					if (ch < c || n < b)
 						continue;
 
 					putchar(b);
