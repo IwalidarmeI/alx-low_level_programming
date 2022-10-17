@@ -29,7 +29,7 @@ int main(void)
 					putchar(n);
 					putchar(ch);
 
-					if (b == '8' && c == '8' && n == '9' && ch == '9')
+					if (b == '9' && c == '8' && n == '9' && ch == '9')
 						continue;
 					putchar(44);
 					putchar(32);
