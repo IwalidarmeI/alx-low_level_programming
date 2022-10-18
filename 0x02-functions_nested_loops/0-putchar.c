@@ -3,7 +3,7 @@
 /**
  * main - This begin point of the program
  *
- * Retuurn: returns the value 0
+ * Return: returns the value 0
  */
 int main(void)
 {
