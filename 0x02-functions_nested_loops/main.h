@@ -1,7 +1,9 @@
+#include <stdio.h>
 #ifndef MAIN_H
 #define MAIN_H
 
-void print_alphabet(void);
+
+void print_alphabet(void)
 {
 	int n;
 
@@ -10,6 +12,6 @@ void print_alphabet(void);
 		putchar(n);
 	}
 	putchar('\n');
-	return (0);
 }
+
 #endif
