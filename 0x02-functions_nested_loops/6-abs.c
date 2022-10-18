@@ -2,7 +2,7 @@
 /**
  * _abs - this finction print alphabet in lowercase
  *
- * @int: character input
+ * @num: character input
  * Return: this will not return any value
  */
 int _abs(int num)
