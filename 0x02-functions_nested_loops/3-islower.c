@@ -2,8 +2,8 @@
 /**
  * _islower - this finction print alphabet in lowercase
  *
+ * @c: character input
  * Return: this will not return any value
- * #c: character input
  */
 int _islower(int c)
 {
