@@ -4,7 +4,7 @@
  *
  * Return: this will not return any value
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int n;
 
