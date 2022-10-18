@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_alphabet - this finction print alphabet in lowercase
  *
