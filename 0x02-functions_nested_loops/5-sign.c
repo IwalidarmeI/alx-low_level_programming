@@ -9,11 +9,14 @@ int print_sign(int n)
 {
 	if ( n > 0)
 		return (1);
-		printf("+\n");
+		_putchar('+');
+		_putchar('\n');
 	if ( n == 0)
 		return (0);
-		printf("0\n");
+		_putchar('0');
+		_putchar('\n');
 	if ( n < 0)
 		return (-1);
-		printf("-\n");
+		_putchar('-');
+		_putchar('\n');
 }
