@@ -5,10 +5,10 @@
  * @int: character input
  * Return: this will not return any value
  */
-int _abs(int)
+int _abs(int num)
 {
-	if (int < 0) 
-		return (int * int);
+	if (num < 0) 
+		return (num * num);
 	else
-		return (int);
+		return (num);
 }
