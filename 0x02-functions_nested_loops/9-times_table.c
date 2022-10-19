@@ -38,7 +38,11 @@ void times_table(void)
 			}
 			printf(", ");
 			if (a < 9)
+			{
 				printf(" ");
+				continue;
+			}
+		
 		}
 	}
 }
