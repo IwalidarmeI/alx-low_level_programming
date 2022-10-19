@@ -37,7 +37,9 @@ void times_table(void)
 				break;
 			}
 			printf(", ");
-			if (b * c > 9)
+			int i = b * c;
+
+			if (i > 9)
 			{
 				continue;
 			}
