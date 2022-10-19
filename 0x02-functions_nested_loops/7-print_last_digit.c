@@ -7,7 +7,7 @@
  */
 int print_last_digit(int num)
 {
-	if (n < 0)
+	if (num < 0)
 	{
 		int lastDigit = -1 * (num % 10);
 		char n = lastDigit + '0';
