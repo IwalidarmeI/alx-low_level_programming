@@ -18,7 +18,7 @@ void times_table(void)
 		printf("0");
 		if (n == 9)
 		{
-			printf('\n');
+			printf("\n");
 			break;
 		}
 		printf(", ");
@@ -31,7 +31,7 @@ void times_table(void)
 			printf("%d", a);
 			if (a == b * c)
 			{
-				printf('\n');
+				printf("\n");
 				break;
 			}
 			printf(", ");
