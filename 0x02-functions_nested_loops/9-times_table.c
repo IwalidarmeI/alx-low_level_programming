@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign - is finction print alphabet in lowercase
+ * times_table - is finction print alphabet in lowercase
  *
- * @n: character input
+ * @void: no argument needed
  * Return: this will not return any value
  */
 
@@ -13,6 +13,7 @@ void times_table(void)
 	int c;
 	int d = 0;
 	int n;
+
 	for (n = 0 ; n <= 9 ; n++)
 	{
 		printf("0");
@@ -22,6 +23,7 @@ void times_table(void)
 			break;
 		}
 		printf(", ");
+		printf(" ");
 	}
 	for (c = 1 ; c <= 9 ; c++)
 	{
@@ -35,6 +37,8 @@ void times_table(void)
 				break;
 			}
 			printf(", ");
+			else if (a < 9)
+				printf(" ");
 		}
 	}
 }
