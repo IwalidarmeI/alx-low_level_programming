@@ -12,7 +12,7 @@ void times_table(void)
 	int b = 9;
 	int c;
 	int d = 0;
-
+	int n;
 	for (n = 0 ; n <= 9 ; n++)
 	{
 		printf("0");
