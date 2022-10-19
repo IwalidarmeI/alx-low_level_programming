@@ -13,6 +13,16 @@ void times_table(void)
 	int c;
 	int d = 0;
 
+	for (n = 0 ; n <= 9 ; n++)
+	{
+		printf("0");
+		if (n == 9)
+		{
+			printf('\n');
+			break;
+		}
+		printf(", ");
+	}
 	for (c = 1 ; c <= 9 ; c++)
 	{
 		d++;
@@ -21,7 +31,7 @@ void times_table(void)
 			printf("%d", a);
 			if (a == b * c)
 			{
-				_putchar('\n');
+				printf('\n');
 				break;
 			}
 			printf(", ");
