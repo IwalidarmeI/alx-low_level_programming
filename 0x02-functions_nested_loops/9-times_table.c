@@ -1,50 +1,40 @@
 #include "main.h"
+
 /**
- * times_table - is finction print alphabet in lowercase
- *
- * @void: no argument needed
- * Return: this will not return any value
+ * times_table - prints the 9 times table, starting with 0
  */
 
 void times_table(void)
 {
-	int a;
-	int b = 9;
-	int c;
-	int d = 0;
-	int n;
 
-	for (n = 0 ; n <= 9 ; n++)
-	{
-		printf("0");
-		if (n == 9)
-		{
-			printf("\n");
-			break;
-		}
-		printf(", ");
-		printf(" ");
-	}
-	for (c = 1 ; c <= 9 ; c++)
-	{
-		d++;
-		for (a = 0 ; a <= b * c ; a = a + d)
-		{
-			printf("%d", a);
-			if (a == b * c)
-			{
-				printf("\n");
-				break;
-			}
-			printf(", ");
-			int i = b * c;
+	int row;
+	int column;
+	int product;
 
-			if (i > 9)
+	for (row = 0; row <= 9; row++)
+	{
+		for (column = 0; column <= 9; column++)
+		{
+			product = (row * column);
+			if (column == 0)
 			{
-				continue;
+				_putchar('0' + product);
 			}
-			printf(" ");
-		
+			else if (product <= 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + product);
+			}
+			else if (product > 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar('0' + (product / 10));
+				_putchar('0' + (product % 10));
+			}
 		}
+		_putchar('\n');
 	}
 }
