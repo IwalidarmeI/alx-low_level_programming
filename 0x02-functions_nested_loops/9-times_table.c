@@ -24,8 +24,7 @@ void times_table(void)
 				_putchar('\n');
 				break;
 			}
-			_putchar(',');
-			_putchar(32);
+			printf(", ");
 		}
 	}
 }
