@@ -18,7 +18,7 @@ void times_table(void)
 		d++;
 		for (a = '0' ; a <= b * c ; a = a + d)
 		{
-			_putchar(a);
+			printf("%d", a);
 			if (a == b * c)
 			{
 				_putchar('\n');
