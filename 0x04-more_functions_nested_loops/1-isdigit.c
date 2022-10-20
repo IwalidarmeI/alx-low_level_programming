@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isupper - this fonction checks for digit from 0 through 9
+ * _isdigit - this fonction checks for digit from 0 through 9
  *
  * @c: the input of the function
- * Return : returns 1 or 0
+ * Return: Returns 1 or 0
  */
 int _isdigit(int c)
 {

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - this fonction checks for digit from 0 through 9 without 2 and 4
+ * more_numbers - this fonction checks for digit
  *
- * Return : no returns for this function
+ * Return: no returns for this function
  */
-void print_numbers(void)
+void more_numbers(void)
 {
 	int number;
 	int num1;
