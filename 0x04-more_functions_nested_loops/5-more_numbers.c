@@ -25,10 +25,10 @@ void more_numbers(void)
 				num1 = number / 10;
 				num2 = number % 10;
 			}
-			_putchar(num1);
+			_putchar(num1 + '0');
 			if (number < 9)
 			{
-				_putchar(num2);
+				_putchar(num2 + '0');
 			}
 		}
 		_putchar('\n');
