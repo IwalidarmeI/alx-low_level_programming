@@ -2,7 +2,7 @@
 
 /**
  * _isupper - this fonction checks for uppercase characters
- * @c: the input of the function
+ * @c : the input of the function
  * Return : returns 1 or 0
  */
 int _isupper(int c)
