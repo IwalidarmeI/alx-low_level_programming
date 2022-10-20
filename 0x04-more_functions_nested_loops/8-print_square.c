@@ -3,6 +3,7 @@
 /**
  * print_square - This function create squares
  *
+ * @size: this the size of the square
  * Return: Returns nothing
  */
 void print_square(int size)
@@ -21,6 +22,4 @@ void print_square(int size)
 			_putchar('\n');
 		}
 	}
-	else
-		_putchar('\n');
 }
