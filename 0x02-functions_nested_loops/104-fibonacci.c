@@ -18,9 +18,11 @@ int main(void)
 		f1 = f1 + f2;
 		f2 = f1 - f2;
 		if (i > 89)
+		{
 			f1 = f1 / 1000;
 			b = f1 % 1000;
 			printf("%ld%ld",f1 , b);
+		}
 		else if (i == 98)
 		{
 			printf("%ld\n", f1);
