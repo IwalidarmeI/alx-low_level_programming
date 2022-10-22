@@ -13,11 +13,11 @@ void print_to_98(int n)
 
 	if (n <= 98)
 	{
-		c = i++
+		c = i++;
 	}
 	else
 	{
-		c = i--
+		c = i--;
 	}
 	for (i = n ; i <= 98 ; c)
 	{
