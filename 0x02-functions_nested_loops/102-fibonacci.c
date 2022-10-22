@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int f1 = 1;
-	int f2 = 1;
+	long int f1 = 1;
+	long int f2 = 1;
 	int i;
 
 	printf("1, ");
