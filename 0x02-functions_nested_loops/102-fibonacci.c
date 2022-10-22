@@ -18,9 +18,9 @@ int main(void)
 		f2 = f1 - f2;
 		if (i == 50)
 		{
-			printf("%d\n", f1);
+			printf("%ld\n", f1);
 		}
-		printf("%d, ", f1);
+		printf("%ld, ", f1);
 	}
 	return (0);
 }
