@@ -20,7 +20,8 @@ int main(void)
 		{
 			printf("%ld\n", f1);
 		}
-		printf("%ld, ", f1);
+		else
+			printf("%ld, ", f1);
 	}
 	return (0);
 }
