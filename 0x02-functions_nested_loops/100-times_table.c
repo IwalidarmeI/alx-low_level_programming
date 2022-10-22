@@ -60,8 +60,8 @@ void print_times_table(int n)
 				_putchar(firstDig + '0');
 				_putchar(lastDig + '0');
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 	}
 }
