@@ -17,9 +17,9 @@ void print_diagonal(int n)
 		{
 			for (sp = 0 ; sp <= i - 1 ; sp++)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
-			_putchar('\\');
+			_putchar(92);
 			_putchar('\n');
 		}
 	}
