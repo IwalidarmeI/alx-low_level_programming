@@ -16,7 +16,7 @@ int main(void)
 	{
 		f1 = f1 + f2;
 		f2 = f1 - f2;
-		if (i == 50)
+		if (i == 98)
 		{
 			printf("%ld\n", f1);
 		}
