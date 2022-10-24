@@ -19,7 +19,7 @@ void rev_string(char *s)
 	i--;
 	while (s[i] != '\0')
 	{
-		rev_str[c] = s[i]
+		rev_str[c] = s[i];
 		i--;
 		c++;
 	}
