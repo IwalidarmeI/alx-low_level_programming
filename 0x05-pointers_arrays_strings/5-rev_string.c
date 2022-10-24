@@ -16,13 +16,12 @@ void rev_string(char *s)
 		i++;
 	}
 	i--;
-	char rev_str[i];
+	char rs[i];
 
 	while (s[i] != '\0')
 	{
-		rev_str[c] = s[i];
+		rs[c] = s[i];
 		i--;
 		c++;
 	}
-	return (rev_str);
 }
