@@ -6,7 +6,7 @@
  * @str: this is the string
  * Return: Returns nothing
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int i = 0;
 
