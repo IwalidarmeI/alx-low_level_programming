@@ -19,9 +19,8 @@ void rev_string(char *s)
 	i--;
 	while (s[i] != '\0')
 	{
-		*(rs+c) = *(s+i);
+		*(s+c) = *(rs+i);
 		i--;
 		c++;
 	}
-	return (rs);
 }
