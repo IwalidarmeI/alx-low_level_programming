@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 			mul = atoi(argv[i]) * mul;
 		}
 		printf("%d\n", mul);
+		return (0);
 	}
 	else
 	{
