@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - this the begin of the program
@@ -14,15 +15,18 @@ int main(int argc, char *argv[])
 
 	for (i = 1 ; i < argc ; i++)
 	{
-		if (argv[i] < 58 && argv[i] > 47)
+		for (j = 0 ; argv[i][j] ; j++)
 		{
-			add = atoi(argv[i]) + add;
+			if (isdigit argv[i][j] == 0)
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+	}
+	for (i = 1 ; i < argc ; i++)
+	{
+		add += atoi(argv[i]);
 	}
 	printf("%d\n", add);
 	return (0);
